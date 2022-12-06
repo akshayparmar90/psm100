@@ -39,11 +39,17 @@ const Share = () => {
     };
 
     const Name = window.location.search;
-    const fName = Name.substring(3).replace('-', ' ').toLocaleUpperCase();
+    const fName = Name.substring(3).replace('-', ' ');
+    const arr = fName.split(" ");
+    for (var i = 0; i < arr.length; i++) {
+        arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
+
+    }
+    const fNameNew = arr.join(" ");
     
     return(
         <div>
-            <h2>{fName}</h2>
+            <h2>{fNameNew}</h2>
             <input
                 type="text"
                 id="message"

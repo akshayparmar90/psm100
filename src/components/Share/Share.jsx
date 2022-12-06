@@ -38,7 +38,7 @@ const Share = () => {
         window.open(`whatsapp://send?text=${new_url}`)
     };
 
-    const Name = window.location.search;
+    const Name = decodeURIComponent(window.location.search) ? decodeURIComponent(window.location.search) : window.location.search;
     const fName = Name.substring(3).replaceAll('-', ' ');
     const arr = fName.split(" ");
     for (var i = 0; i < arr.length; i++) {

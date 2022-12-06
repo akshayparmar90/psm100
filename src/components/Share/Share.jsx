@@ -25,7 +25,7 @@ const Share = () => {
         var search_params = url.searchParams;
 
         // new value of "id" is set to "101"
-        search_params.set('n', message);
+        search_params.set('n', message.split(" ").join("").toLocaleLowerCase());
 
         // change the search property of the main url
         url.search = search_params.toString();

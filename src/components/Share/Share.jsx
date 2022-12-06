@@ -45,7 +45,7 @@ const Share = () => {
         arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
 
     }
-    const fNameNew = arr.join(" ");
+    const fNameNew = (Name === '' ? 'Your Name' : arr.join(" "));
     
     return(
         <div>

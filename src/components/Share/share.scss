@@ -1,0 +1,42 @@
+body {
+    background: #fffcee;
+    height: 100vh;
+}
+.psm-container {
+    padding: 0 0 20px 0;
+    text-align: center;
+    &__logo {
+        padding: 0 0 10px 0;
+    }
+    &__name {
+        font-size: 2rem;
+        margin: 0px 0 20px 0;
+    }
+    &__invitation {
+        font-size: 1.5rem;
+        color: #9d0b0e;
+        line-height: 1.8;
+        padding: 0 20px 130px 20px;
+        background: url('../../images/main_bg.png') no-repeat center bottom;
+    }
+    &__date {
+        background-color: #9d0b0e;
+        font-size: 1.5rem;
+        color: #fffcee;
+        padding: 20px;
+    }
+    .nameInput {
+        border: solid 1px #d8d0c1;
+        width: 75%;
+        height: 47px;
+        margin-top: 10px;
+    }
+    .nameButton {
+        width: 20%;
+        background-color: #9d0b0e;
+        color: #fffcee;
+        border: solid 1px #9d0b0e;
+        height: 50px;
+        margin-top: 10px;
+    }
+}

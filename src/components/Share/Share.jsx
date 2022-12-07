@@ -16,7 +16,9 @@ const Share = () => {
         search_params.set('n', message.split(" ").join("-").toLocaleLowerCase());
         url.search = search_params.toString();
         var new_url = url.toString();
-        window.open(`whatsapp://send?text=${new_url}`)
+        window.open(`whatsapp://send?text=${message} તરફથી આપને ખાસ આમંત્રણ છે. જલ્દીથી જુઓ.👇👇👇
+        
+        \n ${new_url}`)
     };
 
     const Name = decodeURIComponent(window.location.search) ? decodeURIComponent(window.location.search) : window.location.search;

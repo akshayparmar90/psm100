@@ -1,7 +1,7 @@
 {
-  "name": "share-app",
+  "name": "psm100",
   "version": "0.1.0",
-  "homepage": "https://akshayparmar90.github.io/share-app",
+  "homepage": "https://akshayparmar90.github.io/psm100",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

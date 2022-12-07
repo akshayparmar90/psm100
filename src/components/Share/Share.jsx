@@ -34,7 +34,7 @@ const Share = () => {
             <img src={logo} className="psm-container__logo" alt="psm100" />
             <h3 className="psm-container__name">{fNameNew}</h3>
             <div className="psm-container__invitation">તરફ થી આપ સર્વેને પ્રમુખ સ્વામી મહારાજ શતાબ્દી મહોત્સવમાં આપના કુટુંબ અને મિત્ર મંડળ સાથે પધારવવા હાર્દિક આમંત્રણ છે.</div>
-            <div className="psm-container__date">પ્રમુખ સ્વામી મહારાજનો <br /> શતાબ્દી મહોત્સવ અમદાવાદ ખાતે <br /> તારીખ ૧૫-૧૨-૨૦૨૨ થી ૧૫-૦૧-૨૦૨૩ સુધી<br />ખૂબ જ દિવ્યતા અને ભવ્યતાથી ઉજવાશે.</div>
+            <div className="psm-container__date">પ્રમુખ સ્વામી મહારાજનો <br /> શતાબ્દી મહોત્સવ અમદાવાદ ખાતે <br /> તારીખ ૧૫-૧૨-૨૦૨૨ થી ૧૫-૦૧-૨૦૨૩ સુધી<br />ખૂબ જ દિવ્યતા અને ભવ્યતાથી ઉજવાશે.<br />વધુ માહિતી માટે જુઓ <a href="https://psm100.org" target="_blank">https://psm100.org</a></div>
             <input
                 type="text"
                 id="message"

@@ -44,7 +44,6 @@ const Share = () => {
                 autoComplete="off"
                 placeholder="👉તમારું નામ લખો..."
                 className="nameInput"
-                autofocus="autofocus"
             />
             <button onClick={handleClick} className="nameButton">👉 Share</button>
         </div>
